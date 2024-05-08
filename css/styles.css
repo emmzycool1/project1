@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background: #fff;
+}
+
+/*header styling starts here*/
+header.header-section > .navbar{
+	color: #222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2em;
+	margin: 1.3em 0;
+	text-transform: uppercase;
+}
+header.header-section > .navbar > ul.nav-links{
+	display: flex;
+}
+header.header-section > .navbar > ul.nav-links > li{
+	list-style: none;
+}
+header.header-section > .navbar > ul.nav-links a{
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: 0.8em;
+	color: #222;
+}
+header.header-section > .navbar > div.login{
+	display: flex;
+}
+div.login > img.search{
+	padding-left: 2.5em;
+}
+div.login > img.user{
+	padding-left: 1.3em;
+}
+
+/*hero-section styling*/
+header.header-section > div.hero-section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 96%;
+	margin: auto;
+	background: #F9FAFA;
+	padding: 2.5em;
+}
+header.header-section > div.hero-section > div.hero-text{
+	width: 600px;
+	font-size: 1.2em;
+}
+div.hero-text > p{
+	padding: 1.9em 0 2.2em;
+}
+div.hero-text > a{
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 0.55em 1.55em;
+	color: #fff;
+}
+div.hero-text a.contact-link{
+	background: #F89744;
+}
+div.hero-text a.contact-link:hover{
+	background: #fff;
+	color: #F89744;
+	border: 0.01em solid #F89744;
+}
+div.hero-text a.about-link{
+	background: #86D2CE;
+	margin-left: 0.15em;
+}
+div.hero-text a.about-link:hover{
+	background: #fff;
+	color: #86D2CE;
+	margin-left: 0.15em;
+	border: 0.01em solid #86D2CE;
+}
+header.header-section > div.hero-section > div.hero-img > img{
+	width: 100%;
+}
+/*header styling ends here*/
+
+/*main section styling starts here*/
+main.main-section{
+	margin-top: 4em;
+}
+main.main-section > section.furniture{
+	width: 97%;
+	margin: auto;
+}
+main.main-section > section.furniture > div.description{
+	line-height: 2;
+}
+main.main-section > section.furniture > div.furniture-images1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+main.main-section > section.furniture > div.furniture-images1 >div{
+	background: #F9FAFA;
+	margin-right: 35px;	
+	padding: 35px;
+}
+main.main-section > section.furniture > div.furniture-images2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px ;
+}
+main.main-section > section.furniture > div.furniture-images2 >div{
+	background: #F9FAFA;
+	margin-right: 35px;	
+	padding: 35px;
+}
+main.main-section > section.furniture > div.furniture-images1 > div >img{
+	width: 250px;
+	height: 35vh;
+}
+main.main-section > section.furniture > div.furniture-images2 > div >img{
+	width: 250px;
+	height: 35vh;	
+}
+main.main-section > section.furniture > div.furniture-images1 > div >p span{
+	padding-left: 80px;
+}
+main.main-section > section.furniture > div.furniture-images2 > div >p span{
+	padding-left: 80px;
+	color: red;
+}
+/*About sections styling start here*/
+main.main-section > section.About{
+	width: 96%;
+	margin: auto;
+	background: #F9FAFA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+	margin: 30px;	
+}
+section.About > div> p{
+	padding: 30px 0 30px;
+}
+section.About > div> p a{
+	background: #86D2CE;
+	color: #fff;
+	margin-left: 0.15em;
+	padding: 15px;	
+}
+section.About > div> p a:hover{
+	background: #fff;
+	border: 1px solid #86D2CE;
+	color:#86D2CE ;
+}
+section.About > div > img{
+	width: 500px;
+}
+/*About sections styling ends here*/
+
+/*blog styling starts here*/
+main.main-section > section.Blog >h2{
+	text-align: center;
+	padding: 20px 0;
+	font-size: 2em;
+}
+main.main-section > section.Blog >div{
+ 	display: flex;
+	justify-content: space-between;
+}
+main.main-section > section.Blog >div >img{
+	width: 33.3%;
+	padding: 10px;
+}
+main.main-section > section.Blog >div >h2{
+	width: 32%;
+	padding-bottom: 7px;
+	
+}
+main.main-section > section.Blog >div > p{
+	width: 32%;
+	font-size: 20px;
+}
+main.main-section > section.Blog >div > a{
+	color: #86d2CE;
+	background: #fff;
+	padding: 7px;
+	width: 32%;
+	font-size: 20px;
+}
+main.main-section > section.Blog >div > a:hover{
+	color: #fff;
+	background: #86D2CE;
+	border: 1px solid #86D2CE;
+}
+/*blog styling ends here*/
+
+/*testimonal styling starts here*/
+main.main-section > section.testimonal > div{
+	display: flex;
+	margin: 40px 170px ;
+	font-size: 20px;
+}
+main.main-section > section.testimonal > h2{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 2em;	
+}
+main.main-section > section.testimonal > div >img{
+	width: 25%;
+	height: 25%;
+	border-radius: 100%;
+	border: 8px solid #86D2CE;
+}
+main.main-section > section.testimonal > div >p{
+	padding: 20px;
+}
+
+/*testimonal styling ends here*/
+
+/*contact us styling starts here*/
+main.main-section > section.contact{
+	margin: 50px;
+}
+main.main-section > section.contact >form >input{
+	width: 300px;
+	height: 8vh;
+}
+main.main-section > section.contact >form >button{
+	color: #fff;
+	background: #86D2CE;
+	padding: 20px;
+	border: 1px #86D2CE;
+	width: 150px;
+}
+main.main-section > section.contact >form >button:hover{
+	color: #86D2CE;
+	background: #fff;
+	border: 1px solid #86D2CE;
+}
+/*contact us styling starts here*/
+
+/*mainb section styling ends here*/
+
+/*media query starts here*/
+@media screen and (max-width: 900px){
+	body{
+		color: blue;
+		overflow-x: hidden;
+	}
+	header.header-section > nav.navbar > ul.nav-links,
+	header.header-section > nav.navbar > div.login{
+		display: none;
+	}
+	header.header-section > div.hero-section{
+		display: block;
+		flex-direction: column;
+	}
+	header.header-section > div.hero-section > div.hero-text{
+		width: 300px;
+		padding: 10px;
+	}
+	main.main-section > section.furniture > div.furniture-images1,
+	main.main-section > section.furniture > div.furniture-images2{
+		display: block;
+		flex-direction: column;
+	}
+	main.main-section > section.About{
+		display: block;
+		flex-wrap: wrap;
+	}
+	section.About > div > img{
+		width: 350px;
+	}
+}
+/*media query starts here*/
